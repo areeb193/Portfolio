@@ -2,10 +2,11 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a dedicated Software Engineer with a strong foundation in programming and a deep understanding of data structures and algorithms. With 5 years of experience, I excel in developing efficient and scalable software solutions. My expertise spans multiple programming languages, including C++, Python, and JavaScript, and I am skilled in optimizing code for performance and reliability. I am passionate about solving complex problems and delivering high-quality software that meets the needs of users and businesses alike.`;
+export const HERO_CONTENT = `I am a Software Engineering student (7th semester, COMSATS) and freelance developer focused on building reliable, high‑performance products. I work across the MERN stack and React Native, apply solid OOP/DSA, and use Playwright for end‑to‑end automation testing. I care about clean architecture, performance, and developer experience, and I enjoy turning real‑world problems into simple, scalable solutions for web and mobile.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Software Engineer with a strong emphasis on programming and a deep understanding of data structures and algorithms. With 5 years of professional experience, I have honed my skills across various technologies, including C++, Python, and JavaScript, as well as frameworks like React and Next.js. My journey in software engineering began with a passion for solving complex problems, and it has grown into a career where I continuously strive to optimize performance and create scalable, efficient solutions. I thrive in collaborative environments and enjoy tackling challenging technical issues to deliver high-quality software. Outside of coding, I stay engaged by exploring new technologies, contributing to open-source projects, and staying active.`;
+export const ABOUT_TEXT = `I am a versatile engineer with hands‑on experience delivering web and mobile applications for clients since 2023. My toolkit includes JavaScript, C++, and Python; React and React Native for the frontend; Node.js and Express on the backend; Tailwind CSS for UI; MongoDB for data; and Playwright and Postman for automated and API testing. At COMSATS (BS Software Engineering, 6th semester), I deepen fundamentals—OOP, DSA, and API design—and apply them on real projects like an e‑commerce app (SwiftCart), a fitness platform, and my portfolio. I follow the SDLC from requirements to deployment (Vercel/Supabase), practice modular design and reusable components, profile performance, and collaborate using Git/GitHub and agile workflows. I value clear communication, thoughtful UX, and continuous learning, and I enjoy exploring new JavaScript tools and contributing on GitHub.`;
 
 export const EXPERIENCES = [
   {
@@ -60,6 +61,15 @@ export const PROJECTS = [
     description:
       "A fitness app designed to help users achieve their health goals without the need for a personal trainer. It provides guided workouts, progress tracking, and personalized plans, making fitness accessible and cost-effective.",
     technologies: ["React native","context api","Rest Api"],
+  },
+  {
+    title: "Internship Portal",
+    image: project5,
+    description:
+      "A MERN internship portal where students can find and apply for internships, companies post/manage jobs, with auth, admin dashboard, and real-time chat.",
+    technologies: ["Node.js", "Express.js", "MongoDB", "React", "Redux", "Socket.io"],
+    link: "https://job-portal-mern-stack-project-production.up.railway.app/",
+  imageSize: 220,
   },
 ];
 
