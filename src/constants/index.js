@@ -1,12 +1,11 @@
-import project1 from "../assets/projects/project-1.jpg";
+
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.png";
-import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a Software Engineering student (7th semester, COMSATS) and freelance developer focused on building reliable, high‑performance products. I work across the MERN stack and React Native, apply solid OOP/DSA, and use Playwright for end‑to‑end automation testing. I care about clean architecture, performance, and developer experience, and I enjoy turning real‑world problems into simple, scalable solutions for web and mobile.`;
 
-export const ABOUT_TEXT = `I am a versatile engineer with hands‑on experience delivering web and mobile applications for clients since 2023. My toolkit includes JavaScript, C++, and Python; React and React Native for the frontend; Node.js and Express on the backend; Tailwind CSS for UI; MongoDB for data; and Playwright and Postman for automated and API testing. At COMSATS (BS Software Engineering, 7th semester), I deepen fundamentals—OOP, DSA, and API design—and apply them on real projects like an e‑commerce app (SwiftCart), a fitness platform, and my portfolio. I follow the SDLC from requirements to deployment (Vercel/Supabase), practice modular design and reusable components, profile performance, and collaborate using Git/GitHub and agile workflows. I value clear communication, thoughtful UX, and continuous learning, and I enjoy exploring new JavaScript tools and contributing on GitHub.`;
+export const HERO_CONTENT = `I am a Software Engineer and freelance developer specializing in building reliable, high‑performance web and mobile applications. I leverage modern technologies including React, React Native, Node.js, Express, and MongoDB to create scalable solutions. My expertise spans Docker containerization, Kubernetes orchestration, Terraform infrastructure automation, and Azure cloud deployments. I implement robust testing with Playwright and Selenium, establish CI/CD pipelines using GitHub Actions, and apply solid OOP/DSA principles to deliver production‑ready applications with clean architecture and optimal performance.`;
+
+export const ABOUT_TEXT = `I am a versatile Software Engineer with hands‑on experience delivering web and mobile applications for clients since 2023. My technical stack includes JavaScript, TypeScript, C++, and Python; React and React Native for frontend development; Node.js and Express for backend services; Tailwind CSS for modern UI design; MongoDB and Supabase for data management. I specialize in DevOps practices using Docker, Kubernetes, Terraform, and Azure for cloud infrastructure automation. My testing expertise covers Playwright for end‑to‑end automation, Selenium for cross‑browser testing, and Postman for API validation. I implement CI/CD pipelines with GitHub Actions, follow complete SDLC from requirements to deployment, practice modular architecture with reusable components, and collaborate using Git/GitHub with agile methodologies. I value clean code, performance optimization, thoughtful UX, and continuous learning in modern development tools and best practices.`;
 
 export const EXPERIENCES = [
   {
@@ -35,11 +34,56 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Swift Cart",
-    image: project1,
+    title: "M.A. Traders",
+    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770025458/M.A_traders_r5mmo6.png",
     description:
-      "A fully functional shoes store app with features like product listing, shopping cart, and user authentication.",
-    technologies: [ "React native", "Node.js", "supa base"],
+      "A comprehensive digital platform for global trade operations and electrical services management. Features e-commerce functionality, admin dashboard, real-time inventory tracking, and service management for solar panels, CCTV, and AC installations.",
+    technologies: ["Next.js", "React", "TypeScript", "MongoDB", "Docker", "Tailwind CSS"],
+    link: "https://github.com/areeb193/matraders-backend",
+    imageSize: 220,
+  },
+  {
+    title: "Fitness Pro",
+    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770025453/Fitness_Pro_1_vatnn3.png",
+    description:
+      "A cross-platform workout and fitness tracking app with exercise database, BMI calculator, and detailed exercise instructions. Browse exercises by body parts with animated demonstrations and personalized fitness profiles.",
+    technologies: ["React Native", "Expo", "ExerciseDB API", "NativeWind", "React Native Reanimated"],
+    link: "https://github.com/areeb193/Workout-app-React-Native-",
+    imageSize: 220,
+  },
+  {
+    title: "INTERNFLOW",
+    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770025453/Internship_portal_su2qxq.png",
+    description:
+      "A full-stack internship and job portal connecting students with employers. Features real-time chat, application tracking, admin dashboard, and secure authentication. Streamlines the job application process with intelligent tracking.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Redux", "Tailwind CSS"],
+    link: "https://github.com/areeb193/INTERNFLOW",
+    imageSize: 220,
+  },
+  {
+    title: "JobLens AI",
+    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770025453/job_lens_ai_vchgkp.png",
+    description:
+      "An AI-powered resume analyzer that provides intelligent feedback, ATS scores, and job-specific suggestions. Upload resumes and receive custom recommendations tailored to specific job descriptions.",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Puter.js", "Zustand"],
+    link: "https://github.com/areeb193/JobLensAI",
+    imageSize: 220,
+  },
+  {
+    title: "Stride Zone",
+    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770025452/stride_zone_mmyagl.png",
+    description:
+      "A high-performance fitness and activity tracking app with real-time GPS tracking, goal setting, performance analytics, and social features. Track workouts, runs, and activities with detailed statistics and progress visualization.",
+    technologies: ["React Native", "Expo", "Node.js", "Express", "Supabase", "TypeScript"],
+    link: "https://github.com/areeb193/shoes-Store-In-React-native",
+    imageSize: 220,
+  },
+  {
+    title: "Cloud Infrastructure Automation",
+    image: project3,
+    description:
+      "A DevOps project demonstrating modern infrastructure automation and CI/CD practices. Includes containerized microservices deployed to Azure Kubernetes Service with automated pipelines, infrastructure provisioning using Terraform, and continuous deployment workflows.",
+    technologies: ["Docker", "Kubernetes", "Terraform", "Azure", "GitHub Actions"],
   },
   {
     title: "Store management system",
@@ -54,22 +98,6 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Fitness app",
-    image: project4,
-    description:
-      "A fitness app designed to help users achieve their health goals without the need for a personal trainer. It provides guided workouts, progress tracking, and personalized plans, making fitness accessible and cost-effective.",
-    technologies: ["React native","context api","Rest Api"],
-  },
-  {
-    title: "Internship Portal",
-    image: project5,
-    description:
-      "A MERN internship portal where students can find and apply for internships, companies post/manage jobs, with auth, admin dashboard, and real-time chat.",
-    technologies: ["Node.js", "Express.js", "MongoDB", "React", "Redux", "Socket.io"],
-    link: "https://job-portal-mern-stack-project-production.up.railway.app/",
-  imageSize: 220,
   },
 ];
 

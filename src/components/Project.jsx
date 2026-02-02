@@ -38,7 +38,7 @@ const Project = () => {
                                                             rel="noreferrer"
                                                             className="text-sm text-purple-400 hover:text-purple-300 underline mr-2"
                                                         >
-                                                            Live Demo
+                                                            GitHub Repo
                                                         </a>
                                                     )}
                                                     {project.technologies.map((tech, index) => (

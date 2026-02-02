@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from '../constants/index';
 import { motion } from "framer-motion";
-import portfilePic from "../assets/kevinRushProfile.jpg";
+import { useState } from "react";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -12,6 +12,9 @@ const container = (delay) => ({
 });
 
 const Hero = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const profilePicUrl = "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770035946/kevinRushProfile_zof7ez.jpg";
+
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
@@ -45,14 +48,22 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <motion.img
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
-              src={portfilePic}
-              alt="Areeb Zakir"
-              className="w-50 h-100 rounded-full border-6 border-transparent bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 p-1 shadow-lg"
-            />
+            <div className="relative">
+              {!imageLoaded && (
+                <div className="w-50 h-100 rounded-full bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700 animate-pulse p-1">
+                  <div className="w-full h-full rounded-full bg-neutral-900"></div>
+                </div>
+              )}
+              <motion.img
+                initial={{ x: 100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 1.2 }}
+                src={profilePicUrl}
+                alt="Areeb Zakir"
+                onLoad={() => setImageLoaded(true)}
+                className={`w-50 h-100 rounded-full border-6 border-transparent bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 p-1 shadow-lg ${!imageLoaded ? 'hidden' : ''}`}
+              />
+            </div>
           </div>
         </div>
       </div>

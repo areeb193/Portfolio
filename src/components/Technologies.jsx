@@ -5,6 +5,12 @@ import { SiCplusplus } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si"; // For DSA (Data Structures and Algorithms)
 import { SiPlaywright } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiKubernetes } from "react-icons/si";
+import { SiMicrosoftazure } from "react-icons/si";
+import { SiSelenium } from "react-icons/si";
+import { SiTerraform } from "react-icons/si";
 import { motion } from "framer-motion";
 
 
@@ -82,6 +88,48 @@ const Technologies = () => {
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiPlaywright className="text-7xl text-emerald-500" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(3.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <FaDocker className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(4.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <FaGithub className="text-7xl text-gray-400" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(5.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiKubernetes className="text-7xl text-blue-400" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(6.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiMicrosoftazure className="text-7xl text-blue-600" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(7.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiSelenium className="text-7xl text-green-600" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(8.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiTerraform className="text-7xl text-purple-600" />
         </motion.div>
       </motion.div>
     </div>
