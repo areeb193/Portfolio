@@ -8,31 +8,28 @@ Welcome to my portfolio! I'm **M. Areeb Zakir**, a passionate Software Engineer 
 
 ## 🚀 About Me
 
-I am a Software Engineer and freelance developer with hands-on experience delivering web and mobile applications for clients since 2023. I leverage modern technologies to create scalable solutions that solve real-world problems.
+I am a Software Engineer and freelance developer with hands-on experience delivering web and mobile applications for clients since 2022. I leverage modern technologies to create scalable solutions that solve real-world problems.
 
 - 🔭 Currently working on full-stack web and mobile applications
 - 🌱 Continuously learning and exploring new technologies
-- 💼 Freelancing since 2022, delivering projects for clients worldwide
+- 💼 Freelancing since 2022, progressing from frontend and mobile to full-stack development
 - 📍 Based in Lahore, Pakistan
 - 📧 Email: areebzakir1114@gmail.com
 - 📱 Phone: +92 334 4984973
 
 ## 💼 Experience
 
-### Freelance Web Developer (2023 - Present)
-- Designed and developed responsive websites and web applications for multiple clients
-- Delivered projects using React.js, Tailwind CSS, and Node.js
-- Managed client communications, gathered requirements, and ensured timely delivery
+### Freelance Full-Stack Developer (2023 - Present)
+- Designing and developing complete web and mobile applications for multiple clients
+- Delivering full-stack projects using React.js, Node.js, Express, and MongoDB
+- Implementing DevOps practices with Docker, Kubernetes, and cloud platforms
+- Managing client communications, gathering requirements, and ensuring timely delivery
 
-### Freelance Frontend Developer (2022 - 2023)
-- Built user interfaces for small business websites
-- Focused on mobile-friendly, accessible designs
-- Handled version control using Git and deployed projects on Netlify and GitHub Pages
-
-### Freelance Mobile App Developer (2022)
+### Freelance Frontend & Mobile Developer (2022 - 2023)
+- Built responsive user interfaces for small business websites using React and modern CSS
 - Developed cross-platform mobile applications using React Native
 - Integrated REST APIs and Firebase for authentication and real-time data
-- Optimized app performance for both Android and iOS devices
+- Handled version control using Git and deployed projects on Netlify and GitHub Pages
 
 ## 🛠️ Tech Stack
 
