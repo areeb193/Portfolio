@@ -11,6 +11,12 @@ import { SiKubernetes } from "react-icons/si";
 import { SiMicrosoftazure } from "react-icons/si";
 import { SiSelenium } from "react-icons/si";
 import { SiTerraform } from "react-icons/si";
+import { SiJira } from "react-icons/si";
+import { SiGithubactions } from "react-icons/si";
+import { SiSupabase } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandReactNative } from "react-icons/tb";
 import { motion } from "framer-motion";
 
 
@@ -130,6 +136,48 @@ const Technologies = () => {
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
           <SiTerraform className="text-7xl text-purple-600" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(3.2)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <TbBrandNextjs className="text-7xl text-white" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(4.2)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <TbBrandReactNative className="text-7xl text-cyan-400" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(5.2)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiJira className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(6.2)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiGithubactions className="text-7xl text-blue-400" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(7.2)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiSupabase className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(8.2)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+          <SiFirebase className="text-7xl text-yellow-500" />
         </motion.div>
       </motion.div>
     </div>
