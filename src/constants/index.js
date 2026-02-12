@@ -9,7 +9,14 @@ export const ABOUT_TEXT = `I am a versatile Software Engineer with hands‑on ex
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2026 - Present",
+    role: "Full Stack Developer",
+    company: "Plasmocode",
+    description: `Working as a Full Stack Developer at Plasmocode, a software agency specializing in modern web solutions. Developing end-to-end applications using React, Node.js, and Payload CMS. Contributing to client projects and agency infrastructure with focus on scalable architecture and optimal performance.`,
+    technologies: ["React", "Node.js", "Payload CMS", "TypeScript", "MongoDB", "Tailwind CSS"],
+  },
+  {
+    year: "2023 - 2026",
     role: "Freelance Web Developer",
     company: "Self-Employed",
     description: `Worked with multiple clients to design and develop responsive websites and web applications. Delivered projects using React.js, Tailwind CSS, and Node.js. Communicated with clients to gather requirements, provide progress updates, and ensure timely delivery.`,
@@ -33,6 +40,24 @@ export const EXPERIENCES = [
 
 
 export const PROJECTS = [
+  {
+    title: "Digital Invoicing System for Pakistan",
+    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770917773/Screenshot_2025-09-20_163315_hcj5as.png",
+    description:
+      "A complete platform designed to help businesses create FBR-compliant invoices quickly and easily. Features secure JWT authentication, real-time integration with FBR APIs for automated tax calculations and QR code generation. Valued at PKR 130,000, this client project significantly reduces invoice generation time.",
+    technologies: ["React", "Node.js", "JWT", "FBR API", "QR Code Generation"],
+    link: "https://lnkd.in/dWE-QHWW",
+    imageSize: 220,
+  },
+  {
+    title: "Plasmocode - Software Agency Website",
+    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770917852/Screenshot_2026-02-12_222814_q6phc9.png",
+    description:
+      "A professional software agency website built with modern technologies and Payload CMS for robust content management. Features dynamic content delivery, responsive design, and seamless backend integration for streamlined agency operations.",
+    technologies: ["React", "Payload CMS", "Node.js", "Tailwind CSS"],
+    link: "https://www.plasmocode.com/",
+    imageSize: 220,
+  },
   {
     title: "M.A. Traders",
     image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770025458/M.A_traders_r5mmo6.png",
