@@ -46,7 +46,8 @@ export const PROJECTS = [
     description:
       "A complete platform designed to help businesses create FBR-compliant invoices quickly and easily. Features secure JWT authentication, real-time integration with FBR APIs for automated tax calculations and QR code generation. Valued at PKR 130,000, this client project significantly reduces invoice generation time.",
     technologies: ["React", "Node.js", "JWT", "FBR API", "QR Code Generation"],
-    link: "https://lnkd.in/dWE-QHWW",
+    link: "https://www.dispakistan.com/",
+    linkLabel: "Live Demo",
     imageSize: 220,
   },
   {
@@ -56,6 +57,7 @@ export const PROJECTS = [
       "A professional software agency website built with modern technologies and Payload CMS for robust content management. Features dynamic content delivery, responsive design, and seamless backend integration for streamlined agency operations.",
     technologies: ["React", "Payload CMS", "Node.js", "Tailwind CSS"],
     link: "https://www.plasmocode.com/",
+    linkLabel: "Live Demo",
     imageSize: 220,
   },
   {
