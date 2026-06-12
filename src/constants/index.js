@@ -9,32 +9,25 @@ export const ABOUT_TEXT = `I am a versatile Software Engineer with hands‑on ex
 
 export const EXPERIENCES = [
   {
+    year: "Jan 2025 - Feb 2025",
+    role: "Next.js Developer — CMS Integration",
+    company: "Optimum Engineering Company Pvt",
+    description: `Internship focused on building and integrating Next.js frontends with Payload CMS. Implemented content models, created dynamic routes and server-side rendering pages, integrated Payload APIs for content delivery, and assisted with deployment and QA. Gained hands-on experience with CMS schema design and headless content workflows.`,
+    technologies: ["Next.js", "Payload CMS", "React", "Node.js", "Tailwind CSS"],
+  },
+  {
+    year: "Mar 2026 - Jun 2026",
+    role: "Mobile App Developer (React Native)",
+    company: "Trifaar",
+    description: `Internship working on React Native mobile applications. Built UI screens, implemented navigation and state management, integrated REST APIs and Firebase services, optimized performance, and participated in testing and release tasks across Android and iOS.`,
+    technologies: ["React Native", "Expo", "Firebase", "Redux", "TypeScript"],
+  },
+  {
     year: "2026 - Present",
-    role: "Full Stack Developer",
+    role: "Software Developer (Plasmocode) — Self-Employed",
     company: "Plasmocode",
-    description: `Working as a Full Stack Developer at Plasmocode, a software agency specializing in modern web solutions. Developing end-to-end applications using React, Node.js, and Payload CMS. Contributing to client projects and agency infrastructure with focus on scalable architecture and optimal performance.`,
-    technologies: ["React", "Node.js", "Payload CMS", "TypeScript", "MongoDB", "Tailwind CSS"],
-  },
-  {
-    year: "2023 - 2026",
-    role: "Freelance Web Developer",
-    company: "Self-Employed",
-    description: `Worked with multiple clients to design and develop responsive websites and web applications. Delivered projects using React.js, Tailwind CSS, and Node.js. Communicated with clients to gather requirements, provide progress updates, and ensure timely delivery.`,
-    technologies: ["React.js", "Tailwind CSS", "Node.js", "JavaScript"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Freelance Frontend Developer",
-    company: "Self-Employed",
-    description: `Built user interfaces for small business websites using HTML, CSS, and JavaScript. Focused on mobile-friendly, accessible designs. Handled version control using Git and deployed projects on Netlify and GitHub Pages.`,
-    technologies: ["HTML", "CSS", "JavaScript", "Git", "Netlify"],
-  },
-  {
-    year: "2022",
-    role: "Freelance Mobile App Developer",
-    company: "Self-Employed",
-    description: `Developed cross-platform mobile applications using React Native. Integrated REST APIs and Firebase for authentication and real-time data. Optimized app performance for both Android and iOS devices. Delivered functional prototypes and published apps to test environments.`,
-    technologies: ["React Native", "Firebase", "Expo", "JavaScript"],
+    description: `Working on a variety of software projects including web apps, mobile apps, and CMS integrations. Responsibilities include full-stack implementation, client collaboration, project planning, and maintaining production systems. Currently handling new feature development, integrations with Payload CMS, and delivering client projects end-to-end.`,
+    technologies: ["Next.js", "React", "React Native", "Payload CMS", "Node.js", "TypeScript"],
   },
 ];
 
