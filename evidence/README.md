@@ -27,4 +27,4 @@ npm run check:quality
 
 No approved current résumé PDF is available. The old root PDF remains untouched; the UI offers an honest email request instead of a fake download. Add approved PDFs to public/resumes and populate RESUMES in src/constants/index.js when supplied.
 
-The reviewable implementation is uploaded on a dedicated Git branch. No production deployment is claimed.
+The reviewable implementation is uploaded on [`feat/portfolio-redesign`](https://github.com/areeb193/Portfolio/tree/feat/portfolio-redesign), commit `edc46b5`. No production deployment is claimed.

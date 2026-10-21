@@ -6,7 +6,7 @@ Updated: 21 October 2026 (client date). The supplied kit's November preparation 
 
 A complete static redesign and shareable case-study implementation is reviewable on `feat/portfolio-redesign`. Required résumé downloads and browser-based release checks remain blocked. No claim of full completion or production deployment.
 
-Git upload was explicitly authorized by the user. Upload and remote verification are the final delivery step.
+Git upload was explicitly authorized by the user. The review branch is pushed and its remote SHA has been verified.
 
 ## Environment and preserved work
 
@@ -103,5 +103,13 @@ Production artifacts are in ignored `dist/`. Run `npm run preview` to inspect th
 2. When browser access is available, perform QA.md at 320×844, 390×844, 768×1024, and 1440×1000; inspect all sections and case studies, native menu/focus, copy-email failure UI, 200% zoom and reduced motion. Capture after images; record remaining before-image comparison limitations.
 3. Run production lab measurements only if browser access is restored. Do not substitute bundle size for Web Vitals.
 4. Revisit optional WebGL only when all mandatory static UI gates pass.
+
+## GitHub delivery
+
+- Branch: `feat/portfolio-redesign`.
+- Commit: `edc46b5` (`Redesign portfolio for production engineering work`).
+- Remote: https://github.com/areeb193/Portfolio/tree/feat/portfolio-redesign
+- Verified with `git -c http.sslBackend=schannel ls-remote --heads origin`; remote branch SHA matched local `edc46b5` at upload. The default OpenSSL backend's certificate date check failed in this environment, so the validated Windows Schannel backend was used for this Git operation; certificate verification remained enabled.
+- This is a branch upload for review, not a production deployment. The resume and visual/browser gates above remain open.
 
 No background agent, future restart, or automatic continuation is configured.

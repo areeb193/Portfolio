@@ -18,6 +18,6 @@ Updated: 21 October 2026. Code implementation is reviewable; blocked release gat
 | T12 | P2 | Add optional lazy 3D with static fallback | T10 | DEFERRED | Original static SVG sculpture shipped; no WebGL dependency. Cannot validate required WebGL fallback gates in this session |
 | T13 | P1 | Measure and fix layout/performance regressions | T11/T12 deferral | BLOCKED | JS gzip 99,076 → 55,207 bytes. CSS 3,345 → 5,420 bytes. Layout checks, Lighthouse and field metrics unavailable |
 | T14 | P1 | Final review, checkpoint, preview, acceptance report | Required tasks | DONE | Accurate partial/reviewable handoff, changed-file manifest, reproducible commands, explicit blockers |
-| T15 | P1 | Commit and upload to GitHub | User authorization, T14 | IN_PROGRESS | Prepared branch feat/portfolio-redesign; verify remote after push |
+| T15 | P1 | Commit and upload to GitHub | User authorization, T14 | DONE | Branch feat/portfolio-redesign pushed and remote SHA verified; see PROGRESS.md |
 
 Required uncompleted gates remain blockers for a fully verified release. No background continuation is claimed.

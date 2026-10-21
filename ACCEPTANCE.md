@@ -28,6 +28,7 @@ Updated: 21 October 2026. **Reviewable implementation with explicit limitations;
 - [x] D01 Changed files, preview instructions, exact checks, and blockers recorded in PROGRESS.md and evidence/.
 - [x] D02 TASKS.md and PROGRESS.md distinguish implementation, verification, and blockers.
 - [x] D03 User edits preserved; React/Vite retained. Only existing prop-types package promoted to a direct dependency; no framework/dependency upgrades.
+- [x] D04 Review branch pushed to GitHub and remote commit SHA verified; see PROGRESS.md.
 
 ## Git upload and production release
 
