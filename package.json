@@ -7,11 +7,15 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --test src/lib/*.test.js",
+    "check:render": "node scripts/check-render.mjs",
+    "check:quality": "node scripts/check-quality.mjs"
   },
   "dependencies": {
     "chart.js": "^4.4.4",
     "framer-motion": "^11.3.30",
+    "prop-types": "15.8.1",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",

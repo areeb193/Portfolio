@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e7edf4"/><stop offset="1" stop-color="#b6c8dd"/></linearGradient><filter id="s" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="15" stdDeviation="18" flood-color="#243c59" flood-opacity=".18"/></filter></defs>
+<rect width="960" height="640" fill="url(#bg)"/>
+<g font-family="Arial,sans-serif" transform="translate(149 52)" filter="url(#s)">
+<rect width="662" height="532" rx="12" fill="#fff"/>
+<rect width="662" height="58" rx="12" fill="#142338"/><path d="M0 45h662v13H0z" fill="#142338"/>
+<rect x="25" y="18" width="23" height="23" rx="5" fill="#8bbeff"/><path d="m32 34 8-10m-9 4h11" stroke="#142338" stroke-width="2"/>
+<text x="60" y="34" font-size="14" font-weight="bold" fill="#eaf0f8">Digital invoicing</text><text x="540" y="34" font-size="10" fill="#b5c6dc">SAMPLE VIEW</text>
+<text x="35" y="104" fill="#64748b" font-size="10">INVOICES / CREATE</text><text x="35" y="144" fill="#172b45" font-size="29" font-weight="bold">A little more organised.</text>
+<text x="35" y="168" fill="#64748b" font-size="12">Create. Validate. Keep track.</text>
+<path d="M35 193h592" stroke="#e2e8f0"/>
+<text x="35" y="225" fill="#7b8899" font-size="10">BILL TO</text><text x="35" y="250" fill="#263d57" font-size="15">Example business</text><text x="35" y="272" fill="#7b8899" font-size="11">Fictional recipient · Sample invoice</text>
+<text x="480" y="225" fill="#7b8899" font-size="10">INVOICE</text><text x="480" y="249" fill="#263d57" font-size="15">DEMO-001</text>
+<rect x="35" y="300" width="592" height="36" rx="4" fill="#eef3f8"/>
+<g fill="#5d7087" font-size="10"><text x="50" y="323">DESCRIPTION</text><text x="405" y="323">QUANTITY</text><text x="531" y="323">STATUS</text></g>
+<g fill="#3c526d" font-size="12"><text x="50" y="367">Example service</text><text x="433" y="367">01</text><text x="537" y="367">Draft</text><text x="50" y="411">Example item</text><text x="433" y="411">02</text><text x="537" y="411">Draft</text></g>
+<g stroke="#e2e8f0"><path d="M35 383h592M35 429h592"/></g>
+<rect x="35" y="459" width="143" height="34" rx="5" fill="#eef3f8"/><text x="57" y="480" fill="#63768c" font-size="11">Illustrative content</text>
+<rect x="484" y="459" width="143" height="34" rx="5" fill="#243e5e"/><text x="505" y="480" fill="#eaf0f8" font-size="11">Review invoice →</text>
+</g></svg>

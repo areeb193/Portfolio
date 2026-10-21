@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e3eae5"/><stop offset="1" stop-color="#b5c5bd"/></linearGradient><linearGradient id="art" x2="1" y2="1"><stop stop-color="#3e6572"/><stop offset="1" stop-color="#9ebea9"/></linearGradient><filter id="s" x="-50%" y="-30%" width="200%" height="180%"><feDropShadow dx="0" dy="13" stdDeviation="16" flood-color="#223b32" flood-opacity=".2"/></filter></defs>
+<rect width="960" height="640" fill="url(#bg)"/>
+<circle cx="484" cy="316" r="230" fill="none" stroke="#f2f6f3" stroke-width="1.5"/><circle cx="484" cy="316" r="270" fill="none" stroke="#f2f6f3" stroke-opacity=".5"/>
+<g font-family="Arial,sans-serif">
+<g transform="translate(290 35) rotate(-6 145 285)" filter="url(#s)">
+<rect width="286" height="570" rx="39" fill="#162a26"/><rect x="8" y="8" width="270" height="554" rx="32" fill="#f7faf8"/>
+<rect x="99" y="16" width="88" height="22" rx="11" fill="#162a26"/>
+<text x="27" y="37" fill="#263e34" font-size="10">9:41</text><text x="232" y="37" fill="#263e34" font-size="10">•••</text>
+<text x="25" y="90" fill="#203c31" font-size="26" font-weight="bold">libera<tspan fill="#729783">.</tspan></text><circle cx="242" cy="81" r="15" fill="#e2eae4"/><path d="m235 81 7-5 7 5m-7-5v10" fill="none" stroke="#436651" stroke-width="1.5"/>
+<text x="25" y="117" fill="#768b7f" font-size="10">A little space for your perspective.</text>
+<path d="M25 138h236" stroke="#dce5de"/>
+<circle cx="42" cy="171" r="17" fill="#d8e4d8"/><text x="36" y="175" fill="#59775d" font-size="10">E</text>
+<text x="68" y="168" fill="#355242" font-size="12" font-weight="bold">Example creator</text><text x="68" y="185" fill="#7b8d82" font-size="9">Sample post · Interface concept</text>
+<rect x="25" y="205" width="236" height="163" rx="10" fill="url(#art)"/>
+<circle cx="192" cy="247" r="22" fill="#dde4bd"/><path d="m25 340 56-69 63 57 55-37 62 61v16H25z" fill="#547a72"/><path d="m25 349 80-37 66 36 90-31v51H25z" fill="#2e5b56"/>
+<path d="m27 386 5-4 5 4-5 7zM56 383h12v9H56z" fill="none" stroke="#6a8375" stroke-width="1.5"/>
+<text x="25" y="419" fill="#3d594a" font-size="12">A new way to share a point of view.</text>
+<text x="25" y="441" fill="#7b8d82" font-size="10">Exploring identity, content, and connection.</text>
+<path d="M25 463h236" stroke="#dce5de"/>
+<g fill="#789383"><circle cx="44" cy="495" r="10"/><rect x="85" y="486" width="17" height="17" rx="4"/><circle cx="157" cy="495" r="10"/><circle cx="231" cy="495" r="10"/></g>
+<rect x="98" y="541" width="90" height="4" rx="2" fill="#294336"/>
+</g>
+<g transform="translate(561 276) rotate(7)" filter="url(#s)">
+<rect width="245" height="176" rx="16" fill="#213d32"/><rect x="22" y="22" width="37" height="37" rx="10" fill="#375948"/><path d="M32 35h17v12H32zM43 38h9v6h-9" fill="none" stroke="#bed4bc" stroke-width="1.5"/>
+<text x="22" y="88" fill="#dfebdf" font-size="18" font-weight="bold">Your identity.</text><text x="22" y="113" fill="#b1c7b8" font-size="12">A wallet. A new starting point.</text>
+<rect x="22" y="135" width="126" height="23" rx="5" fill="#375948"/><text x="34" y="151" fill="#bfd6bf" font-size="9">PROTOTYPE CONCEPT</text>
+</g>
+<text x="666" y="164" fill="#3d594d" font-size="13" letter-spacing="3">REACT NATIVE</text><text x="666" y="187" fill="#5b7568" font-size="10" letter-spacing="2">AN OPEN EXPLORATION</text>
+</g></svg>
