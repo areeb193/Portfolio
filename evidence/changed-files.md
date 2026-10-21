@@ -1,0 +1,54 @@
+﻿# Changed files
+
+Exact worktree files included in the portfolio redesign upload. The manifest does not list itself.
+
+- `.gitignore`
+- `ACCEPTANCE.md`
+- `AGENTS.md`
+- `CONTENT.md`
+- `DECISIONS.md`
+- `DESIGN.md`
+- `eslint.config.js`
+- `evidence/quality-check.json`
+- `evidence/README.md`
+- `evidence/render-check.json`
+- `IMPLEMENTATION_PLAN.md`
+- `index.html`
+- `LOOP.md`
+- `package.json`
+- `package-lock.json`
+- `PROGRESS.md`
+- `public/favicon.svg`
+- `public/fonts/inter-latin.woff2`
+- `public/fonts/Inter-OFL.txt`
+- `public/fonts/manrope-latin.woff2`
+- `public/fonts/Manrope-OFL.txt`
+- `public/images/areeb-portrait.webp`
+- `public/images/dashboard-sample.svg`
+- `public/images/invoicing-sample.svg`
+- `public/images/libera-sample.svg`
+- `public/images/README.md`
+- `public/images/systems-sculpture.svg`
+- `QA.md`
+- `README.md`
+- `scripts/check-quality.mjs`
+- `scripts/check-render.mjs`
+- `src/App.jsx`
+- `src/components/About.jsx`
+- `src/components/CaseStudy.jsx`
+- `src/components/Contact.jsx`
+- `src/components/Experiences.jsx`
+- `src/components/Hero.jsx`
+- `src/components/Navbar.jsx`
+- `src/components/Project.jsx`
+- `src/components/ResumeLink.jsx`
+- `src/components/Technologies.jsx`
+- `src/constants/index.js`
+- `src/index.css`
+- `src/lib/clipboard.js`
+- `src/lib/clipboard.test.js`
+- `src/lib/navigation.js`
+- `src/lib/navigation.test.js`
+- `src/main.jsx`
+- `START_HERE.md`
+- `TASKS.md`

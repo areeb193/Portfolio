@@ -1,0 +1,40 @@
+{
+  "method": "React server render; not a browser or visual check",
+  "results": [
+    {
+      "route": "/",
+      "status": "pass",
+      "h1": 1,
+      "links": "resolved",
+      "images": "present"
+    },
+    {
+      "route": "#/work/production-insights",
+      "status": "pass",
+      "h1": 1,
+      "links": "resolved",
+      "images": "present"
+    },
+    {
+      "route": "#/work/digital-invoicing",
+      "status": "pass",
+      "h1": 1,
+      "links": "resolved",
+      "images": "present"
+    },
+    {
+      "route": "#/work/libera",
+      "status": "pass",
+      "h1": 1,
+      "links": "resolved",
+      "images": "present"
+    },
+    {
+      "route": "#/work/missing",
+      "status": "pass",
+      "h1": 1,
+      "links": "resolved",
+      "images": "present"
+    }
+  ]
+}

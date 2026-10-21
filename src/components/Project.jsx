@@ -1,63 +1,115 @@
-import { PROJECTS } from "../constants"
-import {motion} from"framer-motion"
+import { FiArrowRight, FiArrowUpRight } from "react-icons/fi";
+import { ARCHIVE, PROJECTS } from "../constants";
 
-const Project = () => {
+export default function Project() {
   return (
-    <div className="border-b border-neutral-900 pb-4">
-        <motion.h1 
-        whileInView={{opacity: 1, x:0}}
-        initial={{opacity:0, x:-100}}
-        transition={{duration:0.5}}
-        className="my-20 text-center text-4xl">Project</motion.h1>
-        <div> {PROJECTS.map((project, index)=>(
-            <div key={index}className="mb-8 flex flex-wrap lg:justify-center">
-                <motion.div
-                whileInView={{opacity: 1, x:0}}
-                initial={{opacity:0, x:-100}}
-                transition={{duration:0.5}} className="w-full lg:w-1/4">
-                                                                                <img
-                                                                                    src={project.image}
-                                                                                    width={project.imageSize || 170}
-                                                                                    height={project.imageSize || 170}
-                                                                                    alt={project.title}
-                                                                                    className="mb-6 rounded"
-                                                                                    loading="lazy"
-                                                                                />
-                </motion.div>
-                <motion.div
-                whileInView={{opacity: 1, x:0}}
-                initial={{opacity:0, x:100}}
-                transition={{duration:1}} className="w-full max-w-xl lg:3/4">
-                <h6 className="mb-2 font-semibold">{project.title}</h6>
-                <p className="mb-4 text-neutral-400">{project.description}</p>
-                                                <div className="flex flex-wrap items-center gap-2 mb-2">
-                                                    {project.link && (
-                                                        <a
-                                                            href={project.link}
-                                                            target="_blank"
-                                                            rel="noreferrer"
-                                                            className="text-sm text-purple-400 hover:text-purple-300 underline mr-2"
-                                                        >
-                                                            {project.linkLabel || "GitHub Repo"}
-                                                        </a>
-                                                    )}
-                                                    {project.technologies.map((tech, index) => (
-                                                        <span
-                                                            key={index}
-                                                            className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
-                                                        >
-                                                            {tech}
-                                                        </span>
-                                                    ))}
-                                                </div>
-
-                </motion.div>
-            </div>
-        ))}
+    <section
+      className="section container"
+      id="work"
+      aria-labelledby="work-heading"
+    >
+      <div className="section-heading">
+        <div>
+          <p className="eyebrow">01 / Selected work</p>
+          <h2 id="work-heading">Built with purpose.</h2>
         </div>
-      
-    </div>
-  )
+        <p>
+          A closer look at the systems,
+          <br className="desktop-break" /> products, and ideas I’ve worked on.
+        </p>
+      </div>
+      <div className="project-grid">
+        {PROJECTS.map((project, index) => (
+          <article
+            className={
+              "project-card " + (index === 0 ? "project-featured" : "")
+            }
+            key={project.slug}
+          >
+            <a
+              className={"project-image project-image-" + project.slug}
+              href={"#/work/" + project.slug}
+              aria-label={"Read " + project.title + " case study"}
+            >
+              <img
+                src={project.image}
+                alt={project.imageAlt}
+                width="960"
+                height="640"
+                loading="lazy"
+              />
+              <span className="preview-label">{project.visualNote}</span>
+              <span className="image-arrow" aria-hidden="true">
+                <FiArrowUpRight />
+              </span>
+            </a>
+            <div className="project-copy">
+              <div className="project-meta">
+                <span>{project.category}</span>
+                <span
+                  className={
+                    "stage " +
+                    (project.stage === "Prototype" ? "stage-prototype" : "")
+                  }
+                >
+                  <span />
+                  {project.stage}
+                </span>
+              </div>
+              <h3>
+                <a href={"#/work/" + project.slug}>{project.title}</a>
+              </h3>
+              <p>{project.summary}</p>
+              <p className="contribution">{project.contribution}</p>
+              <ul className="tags" aria-label="Technologies">
+                {project.technologies.map((tech) => (
+                  <li key={tech}>{tech}</li>
+                ))}
+              </ul>
+              <div className="project-links">
+                <a className="text-link" href={"#/work/" + project.slug}>
+                  View case study
+                  <FiArrowRight aria-hidden="true" />
+                </a>
+                {project.private && (
+                  <span className="private-note">
+                    Private production project
+                  </span>
+                )}
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+      <details className="project-archive">
+        <summary>
+          More from the workbench
+          <span>
+            03 projects{" "}
+            <span className="archive-plus" aria-hidden="true">
+              +
+            </span>
+          </span>
+        </summary>
+        <div>
+          {ARCHIVE.map((project) => (
+            <a
+              key={project.title}
+              href={project.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>
+                {project.title}
+                <small>{project.category}</small>
+              </span>
+              <span>
+                Source <FiArrowUpRight aria-hidden="true" />
+              </span>
+            </a>
+          ))}
+        </div>
+      </details>
+    </section>
+  );
 }
-
-export default Project

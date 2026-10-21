@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#203249"/><stop offset="1" stop-color="#101a29"/></linearGradient><linearGradient id="area" x2="0" y2="1"><stop stop-color="#8bbeff" stop-opacity=".22"/><stop offset="1" stop-color="#8bbeff" stop-opacity="0"/></linearGradient></defs>
+<rect width="960" height="640" fill="url(#bg)"/>
+<g transform="translate(68 73)" font-family="Arial,sans-serif">
+<rect width="824" height="484" rx="12" fill="#0e1520" stroke="#465a71"/><path d="M0 42h824" stroke="#2b3b4f"/>
+<circle cx="23" cy="21" r="4" fill="#6b819a"/><circle cx="39" cy="21" r="4" fill="#6b819a"/><circle cx="55" cy="21" r="4" fill="#6b819a"/>
+<rect x="285" y="12" width="254" height="18" rx="4" fill="#1c2a3a"/><text x="360" y="25" fill="#9eb0c5" font-size="10">ILLUSTRATIVE VIEW</text>
+<path d="M156 42v442" stroke="#2b3b4f"/>
+<rect x="19" y="65" width="25" height="25" rx="6" fill="#8bbeff"/><path d="m26 82 6-10 6 10" fill="none" stroke="#0e1520" stroke-width="2"/><text x="55" y="82" fill="#eaf0f7" font-size="14" font-weight="bold">Insights</text>
+<rect x="12" y="116" width="132" height="33" rx="5" fill="#213653"/><text x="31" y="137" fill="#b8d9ff" font-size="11">Overview</text>
+<g fill="#9eb0c5" font-size="11"><text x="31" y="180">Project insights</text><text x="31" y="221">Administration</text><text x="31" y="262">Activity</text></g>
+<rect x="21" y="417" width="115" height="40" rx="5" fill="#1a2636"/><circle cx="36" cy="436" r="4" fill="#8bbeff"/><text x="47" y="440" fill="#b6c8dc" font-size="9">SAMPLE ONLY</text>
+<text x="185" y="87" fill="#f4f2ed" font-size="22" font-weight="bold">Project overview</text><text x="185" y="110" fill="#9cacc1" font-size="11">A clearer view of project activity.</text>
+<rect x="675" y="69" width="118" height="28" rx="5" fill="#1c2c40" stroke="#4c6079"/><text x="697" y="87" fill="#c5d4e8" font-size="10">Example period</text>
+<g fill="#151f2d" stroke="#2c3b50"><rect x="185" y="136" width="193" height="71" rx="6"/><rect x="393" y="136" width="193" height="71" rx="6"/><rect x="601" y="136" width="193" height="71" rx="6"/></g>
+<g fill="#9cacc1" font-size="10"><text x="201" y="157">INSIGHTS</text><text x="410" y="157">DATA ACCESS</text><text x="617" y="157">ADMINISTRATION</text></g>
+<g fill="#e0eaf7" font-size="16"><text x="201" y="185">Project activity</text><text x="410" y="185">API workflows</text><text x="617" y="185">Review &amp; manage</text></g>
+<rect x="185" y="224" width="380" height="230" rx="6" fill="#151f2d" stroke="#2c3b50"/><text x="204" y="249" fill="#dce7f5" font-size="12">Activity preview</text><text x="455" y="248" fill="#9cacc1" font-size="9">ILLUSTRATION</text>
+<g stroke="#26364b"><path d="M207 282h337M207 318h337M207 354h337M207 390h337"/></g>
+<path d="M208 390 241 369 273 381 309 330 340 351 376 306 409 318 445 277 480 295 514 273 543 291v110H208z" fill="url(#area)"/>
+<path d="m208 390 33-21 32 12 36-51 31 21 36-45 33 12 36-41 35 18 34-22 29 18" fill="none" stroke="#8bbeff" stroke-width="3" stroke-linejoin="round"/>
+<g fill="#91a4bc" font-size="9"><text x="207" y="433">MON</text><text x="311" y="433">WED</text><text x="415" y="433">FRI</text><text x="524" y="433">SUN</text></g>
+<rect x="582" y="224" width="212" height="230" rx="6" fill="#151f2d" stroke="#2c3b50"/><text x="599" y="249" fill="#dce7f5" font-size="12">Administration</text>
+<g fill="#9cacc1" font-size="11"><text x="599" y="291">Sample item A</text><text x="599" y="342">Sample item B</text><text x="599" y="393">Sample item C</text></g>
+<g stroke="#2c3b50"><path d="M599 310h177M599 361h177M599 412h177"/></g>
+<g fill="#8bbeff"><circle cx="766" cy="286" r="4"/><circle cx="766" cy="337" r="4"/><circle cx="766" cy="388" r="4"/></g>
+</g></svg>

@@ -1,0 +1,135 @@
+{
+  "environment": "win32, Node 22.14.0; Vite production output; gzipSync default settings",
+  "method": "Static token contrast and compressed build-size comparison. No browser layout, Lighthouse, or field Web Vitals claims.",
+  "contrast": [
+    {
+      "name": "Primary text / page",
+      "foreground": "#f4f2ed",
+      "background": "#0b0f14",
+      "ratio": 17.18,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "Secondary text / elevated surface",
+      "foreground": "#b5bec9",
+      "background": "#1a2430",
+      "ratio": 8.34,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "Accent links / card",
+      "foreground": "#8bbeff",
+      "background": "#131a23",
+      "ratio": 9.09,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "Primary button",
+      "foreground": "#0b0f14",
+      "background": "#8bbeff",
+      "ratio": 9.98,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "About heading accent",
+      "foreground": "#9aabc0",
+      "background": "#0b0f14",
+      "ratio": 8.2,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "Technology tags",
+      "foreground": "#bdcddd",
+      "background": "#1b2734",
+      "ratio": 9.33,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "Contribution text",
+      "foreground": "#cbd3dd",
+      "background": "#131a23",
+      "ratio": 11.59,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "Production stage",
+      "foreground": "#b8d2ed",
+      "background": "#131a23",
+      "ratio": 11.24,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "Prototype stage",
+      "foreground": "#d7c9a8",
+      "background": "#131a23",
+      "ratio": 10.68,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "Contact secondary text",
+      "foreground": "#b5bec9",
+      "background": "#121b27",
+      "ratio": 9.22,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "Control border / elevated surface",
+      "foreground": "#718197",
+      "background": "#1a2430",
+      "ratio": 3.95,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "name": "Focus outline / card",
+      "foreground": "#b9d8ff",
+      "background": "#131a23",
+      "ratio": 11.94,
+      "minimum": 3,
+      "pass": true
+    }
+  ],
+  "baseline": [
+    {
+      "name": "index-Di7EpG6E.js",
+      "type": "js",
+      "bytes": 299497,
+      "gzipBytes": 99076
+    },
+    {
+      "name": "index-wlOcU2GR.css",
+      "type": "css",
+      "bytes": 13067,
+      "gzipBytes": 3345
+    }
+  ],
+  "production": [
+    {
+      "name": "index-8wRouo8b.js",
+      "type": "js",
+      "bytes": 175779,
+      "gzipBytes": 55207
+    },
+    {
+      "name": "index-C8vXRcH8.css",
+      "type": "css",
+      "bytes": 22653,
+      "gzipBytes": 5420
+    }
+  ],
+  "limitations": [
+    "Browser responsive/keyboard checks blocked by approval review",
+    "No field Core Web Vitals or Lighthouse run",
+    "Approved resume PDFs unavailable"
+  ]
+}

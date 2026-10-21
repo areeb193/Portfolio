@@ -1,128 +1,218 @@
+export const CONTACT = {
+  name: "Areeb Zakir",
+  location: "Lahore, Pakistan",
+  email: "areebzakir1114@gmail.com",
+  phone: "+92 334 4984973",
+  github: "https://github.com/areeb193",
+  linkedin: "https://www.linkedin.com/in/areeb-zakir",
+};
 
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-
-
-export const HERO_CONTENT = `I am a Software Engineer and freelance developer specializing in building reliable, high‑performance web and mobile applications. I leverage modern technologies including React, React Native, Node.js, Express, and MongoDB to create scalable solutions. My expertise spans Docker containerization, Kubernetes orchestration, Terraform infrastructure automation, and Azure cloud deployments. I implement robust testing with Playwright and Selenium, establish CI/CD pipelines using GitHub Actions, and apply solid OOP/DSA principles to deliver production‑ready applications with clean architecture and optimal performance.`;
-
-export const ABOUT_TEXT = `I am a versatile Software Engineer with hands‑on experience delivering web and mobile applications for clients since 2023. My technical stack includes JavaScript, TypeScript, C++, and Python; React and React Native for frontend development; Node.js and Express for backend services; Tailwind CSS for modern UI design; MongoDB and Supabase for data management. I specialize in DevOps practices using Docker, Kubernetes, Terraform, and Azure for cloud infrastructure automation. My testing expertise covers Playwright for end‑to‑end automation, Selenium for cross‑browser testing, and Postman for API validation. I implement CI/CD pipelines with GitHub Actions, follow complete SDLC from requirements to deployment, practice modular architecture with reusable components, and collaborate using Git/GitHub with agile methodologies. I value clean code, performance optimization, thoughtful UX, and continuous learning in modern development tools and best practices.`;
+// Add a download only after its actual approved PDF exists in public/resumes.
+export const RESUMES = [];
 
 export const EXPERIENCES = [
   {
-    year: "Jan 2025 - Feb 2025",
-    role: "Next.js Developer — CMS Integration",
-    company: "Optimum Engineering Company Pvt",
-    description: `Internship focused on building and integrating Next.js frontends with Payload CMS. Implemented content models, created dynamic routes and server-side rendering pages, integrated Payload APIs for content delivery, and assisted with deployment and QA. Gained hands-on experience with CMS schema design and headless content workflows.`,
-    technologies: ["Next.js", "Payload CMS", "React", "Node.js", "Tailwind CSS"],
+    date: "Aug 2026 — Present",
+    role: "Associate Software Engineer",
+    company: "Mindravel Interactive",
+    detail: "Full-time · Lahore, on-site",
+    current: true,
+    contributions: [
+      "Build Node.js and Express services and REST APIs for games and internal systems.",
+      "Work with PostgreSQL, Amazon Aurora, MongoDB, and Valkey across database and caching workflows.",
+      "Contribute to production insights and administration, and deploy and troubleshoot services on AWS Lightsail.",
+    ],
   },
   {
-    year: "Mar 2026 - Jun 2026",
-    role: "Mobile App Developer (React Native)",
+    date: "Feb 2026 — May 2026",
+    role: "Mobile Application Developer Intern",
     company: "Trifaar",
-    description: `Internship working on React Native mobile applications. Built UI screens, implemented navigation and state management, integrated REST APIs and Firebase services, optimized performance, and participated in testing and release tasks across Android and iOS.`,
-    technologies: ["React Native", "Expo", "Firebase", "Redux", "TypeScript"],
+    detail: "Internship · Lahore",
+    contributions: [
+      "Implemented React Native OTP workflows, third-party SDKs, and live-streaming connectivity.",
+      "Integrated REST APIs and debugged mobile flows with Swagger/OpenAPI and Postman.",
+    ],
   },
   {
-    year: "2026 - Present",
-    role: "Software Developer (Plasmocode) — Self-Employed",
-    company: "Plasmocode",
-    description: `Working on a variety of software projects including web apps, mobile apps, and CMS integrations. Responsibilities include full-stack implementation, client collaboration, project planning, and maintaining production systems. Currently handling new feature development, integrations with Payload CMS, and delivering client projects end-to-end.`,
-    technologies: ["Next.js", "React", "React Native", "Payload CMS", "Node.js", "TypeScript"],
+    date: "Jun 2025 — Jul 2025",
+    role: "Software Engineering Intern",
+    company: "Optimum Engineering Company",
+    detail: "Internship · Lahore",
+    contributions: [
+      "Built business modules and reusable components with Next.js, TypeScript, and Tailwind CSS.",
+      "Integrated Payload CMS and REST APIs into content and business workflows.",
+    ],
+  },
+  {
+    date: "Jan 2023 — Present",
+    role: "Freelance Software Developer",
+    company: "Independent",
+    detail: "Self-employed · Remote",
+    contributions: [
+      "Deliver web and mobile work, from requirements and API integration through testing and deployment.",
+    ],
   },
 ];
-
 
 export const PROJECTS = [
   {
-    title: "Digital Invoicing System for Pakistan",
-    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770917773/Screenshot_2025-09-20_163315_hcj5as.png",
-    description:
-      "A complete platform designed to help businesses create FBR-compliant invoices quickly and easily. Features secure JWT authentication, real-time integration with FBR APIs for automated tax calculations and QR code generation. Valued at PKR 130,000, this client project significantly reduces invoice generation time.",
-    technologies: ["React", "Node.js", "JWT", "FBR API", "QR Code Generation"],
-    link: "https://www.dispakistan.com/",
-    linkLabel: "Live Demo",
-    imageSize: 220,
+    slug: "production-insights",
+    number: "01",
+    title: "Production Insights & Admin Dashboard",
+    stage: "Production",
+    category: "Backend engineering",
+    summary:
+      "Bringing project insights and administration together through PostgreSQL-backed APIs and Valkey caching.",
+    contribution:
+      "My focus: backend services, data access, and insights workflows.",
+    technologies: ["Node.js", "PostgreSQL", "Valkey", "REST APIs"],
+    image: "/images/dashboard-sample.svg",
+    imageAlt:
+      "Sample dashboard illustration with an activity chart and example administration records; no production data.",
+    visualNote: "Sample illustration · No production data",
+    private: true,
+    role: "Backend development",
+    context: "Production work · Mindravel Interactive",
+    problem:
+      "Production projects need a practical way to inspect information and carry out administration. This work brings those workflows together through backend services and a project insights dashboard.",
+    work: "I contribute to the backend services, PostgreSQL-backed APIs, and Valkey caching used for insights and administration. The wider role also includes database workflows and deployment troubleshooting.",
+    decisions: [
+      [
+        "API-based data access",
+        "REST APIs connect dashboard workflows to backend services, keeping data access in the service layer.",
+      ],
+      [
+        "PostgreSQL and Valkey",
+        "PostgreSQL supports the data workflows; Valkey supports caching. Private schemas, cache policies, and infrastructure details are intentionally not published.",
+      ],
+    ],
+    outcome:
+      "The dashboard supports insights and administration for a production project. No public performance measurements or customer figures are available for this case study.",
   },
   {
-    title: "Plasmocode - Software Agency Website",
-    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770917852/Screenshot_2026-02-12_222814_q6phc9.png",
-    description:
-      "A professional software agency website built with modern technologies and Payload CMS for robust content management. Features dynamic content delivery, responsive design, and seamless backend integration for streamlined agency operations.",
-    technologies: ["React", "Payload CMS", "Node.js", "Tailwind CSS"],
-    link: "https://www.plasmocode.com/",
-    linkLabel: "Live Demo",
-    imageSize: 220,
+    slug: "digital-invoicing",
+    number: "02",
+    title: "Digital Invoicing System",
+    stage: "Production",
+    category: "Web application",
+    summary:
+      "Invoice creation, validation, and tracking in one dashboard for business workflows.",
+    contribution:
+      "My focus: invoicing workflows, validation, and dashboard delivery.",
+    technologies: ["React", "REST APIs", "Validation"],
+    live: "https://www.dispakistan.com/",
+    image: "/images/invoicing-sample.svg",
+    imageAlt:
+      "Sample invoice interface with fictional line items and invoice status; an illustration, not a product screenshot.",
+    visualNote: "Sample illustration · Fictional invoice",
+    role: "Web application development",
+    context: "Client project · Production",
+    problem:
+      "Creating and following up invoices involves repeated data entry, validation, and status checks. The system brings invoice creation and tracking into a single dashboard workflow.",
+    work: "My work covers invoice creation, tracking, validation, and the dashboard experience. The public portfolio keeps client financial information and customer records private.",
+    decisions: [
+      [
+        "Validation within the workflow",
+        "Invoice validation is part of creation, so the workflow addresses data correctness alongside entering invoice details.",
+      ],
+      [
+        "A shared dashboard",
+        "Invoice tracking and creation are brought together so users can work through the invoicing process in one place.",
+      ],
+    ],
+    outcome:
+      "Delivered invoicing workflows used in a production client project. Usage counts and performance claims are omitted because they have not been independently refreshed.",
   },
   {
-    title: "M.A. Traders",
-    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770025458/M.A_traders_r5mmo6.png",
-    description:
-      "A comprehensive digital platform for global trade operations and electrical services management. Features e-commerce functionality, admin dashboard, real-time inventory tracking, and service management for solar panels, CCTV, and AC installations.",
-    technologies: ["Next.js", "React", "TypeScript", "MongoDB", "Docker", "Tailwind CSS"],
-    link: "https://github.com/areeb193/matraders-backend",
-    imageSize: 220,
-  },
-  {
-    title: "Fitness Pro",
-    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770025453/Fitness_Pro_1_vatnn3.png",
-    description:
-      "A cross-platform workout and fitness tracking app with exercise database, BMI calculator, and detailed exercise instructions. Browse exercises by body parts with animated demonstrations and personalized fitness profiles.",
-    technologies: ["React Native", "Expo", "ExerciseDB API", "NativeWind", "React Native Reanimated"],
-    link: "https://github.com/areeb193/Workout-app-React-Native-",
-    imageSize: 220,
-  },
-  {
-    title: "INTERNFLOW",
-    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770025453/Internship_portal_su2qxq.png",
-    description:
-      "A full-stack internship and job portal connecting students with employers. Features real-time chat, application tracking, admin dashboard, and secure authentication. Streamlines the job application process with intelligent tracking.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Redux", "Tailwind CSS"],
-    link: "https://github.com/areeb193/INTERNFLOW",
-    imageSize: 220,
-  },
-  {
-    title: "JobLens AI",
-    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770025453/job_lens_ai_vchgkp.png",
-    description:
-      "An AI-powered resume analyzer that provides intelligent feedback, ATS scores, and job-specific suggestions. Upload resumes and receive custom recommendations tailored to specific job descriptions.",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Puter.js", "Zustand"],
-    link: "https://github.com/areeb193/JobLensAI",
-    imageSize: 220,
-  },
-  {
-    title: "Stride Zone",
-    image: "https://res.cloudinary.com/ddz3jxlit/image/upload/v1770025452/stride_zone_mmyagl.png",
-    description:
-      "A high-performance fitness and activity tracking app with real-time GPS tracking, goal setting, performance analytics, and social features. Track workouts, runs, and activities with detailed statistics and progress visualization.",
-    technologies: ["React Native", "Expo", "Node.js", "Express", "Supabase", "TypeScript"],
-    link: "https://github.com/areeb193/shoes-Store-In-React-native",
-    imageSize: 220,
-  },
-  {
-    title: "Cloud Infrastructure Automation",
-    image: project3,
-    description:
-      "A DevOps project demonstrating modern infrastructure automation and CI/CD practices. Includes containerized microservices deployed to Azure Kubernetes Service with automated pipelines, infrastructure provisioning using Terraform, and continuous deployment workflows.",
-    technologies: ["Docker", "Kubernetes", "Terraform", "Azure", "GitHub Actions"],
-  },
-  {
-    title: "Store management system",
-    image: project2,
-    description:
-      "A shop management system that helps businesses efficiently handle inventory, sales, and customer transactions. It enables users to add, update, and track products, making retail management easier and more organized.",
-    technologies: [ "Data structure and Algorithm","C++"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    slug: "libera",
+    number: "03",
+    title: "Libera",
+    stage: "Prototype",
+    category: "Cross-platform mobile",
+    summary:
+      "A React Native social prototype exploring wallet identity, decentralized storage, and content moderation.",
+    contribution:
+      "My focus: the mobile prototype and its identity and content workflows.",
+    technologies: ["React Native", "IPFS", "TensorFlow.js"],
+    image: "/images/libera-sample.svg",
+    imageAlt:
+      "Concept illustration of a mobile social feed for Libera, with fictional posts and a wallet identity card.",
+    visualNote: "Interface concept · Prototype",
+    source:
+      "https://github.com/areeb193/Libera-Decentralised-Social-Media-Application",
+    role: "Mobile application development",
+    context: "Social application · Prototype",
+    problem:
+      "Libera explores how a social app can combine a familiar mobile experience with wallet-based identity and decentralized content storage. It is an exploratory prototype, with no claim of production adoption.",
+    work: "I worked on the React Native prototype and its wallet identity, IPFS content, and TensorFlow.js moderation workflows. The public source provides the implementation context.",
+    decisions: [
+      [
+        "React Native for mobile",
+        "The prototype uses React Native to explore the social experience through a mobile application.",
+      ],
+      [
+        "Wallet identity and IPFS",
+        "Wallet identity and decentralized storage are part of the prototype's exploration of how people access and share content.",
+      ],
+      [
+        "Moderation as part of the prototype",
+        "TensorFlow.js is included for content moderation exploration. This is not a claim of production moderation accuracy or coverage.",
+      ],
+    ],
+    outcome:
+      "A public prototype that connects mobile development with decentralized identity, content storage, and moderation experiments. Further production readiness and evaluation remain outside its stated stage.",
   },
 ];
 
-export const CONTACT = {
-  address: "85A.New Canal Housing Scheme  , Lahore, Pakistan ",
-  phoneNo: "03344984973 ",
-  email: "areebzakir1114@gamil.com",
-};
+export const ARCHIVE = [
+  {
+    title: "INTERNFLOW",
+    category: "MERN · Internship & job portal",
+    url: "https://github.com/areeb193/INTERNFLOW",
+  },
+  {
+    title: "Fitness Pro",
+    category: "React Native · Workout application",
+    url: "https://github.com/areeb193/Workout-app-React-Native-",
+  },
+  {
+    title: "JobLens AI",
+    category: "React · Resume analysis",
+    url: "https://github.com/areeb193/JobLensAI",
+  },
+];
+
+export const CAPABILITIES = [
+  {
+    number: "01",
+    title: "Backend & APIs",
+    description: "Services that connect the product.",
+    skills: "Node.js · Express.js · REST APIs",
+    evidence: "Production insights",
+    href: "#/work/production-insights",
+  },
+  {
+    number: "02",
+    title: "Databases & caching",
+    description: "The data behind the experience.",
+    skills: "PostgreSQL · Aurora · MongoDB · Valkey",
+    evidence: "Current production work",
+    href: "#experience",
+  },
+  {
+    number: "03",
+    title: "Web & mobile",
+    description: "From the browser to your pocket.",
+    skills: "React · Next.js · React Native · Expo",
+    evidence: "Libera prototype",
+    href: "#/work/libera",
+  },
+  {
+    number: "04",
+    title: "Deployment & testing",
+    description: "Care beyond the first working build.",
+    skills: "AWS Lightsail · Git · Postman · OpenAPI",
+    evidence: "Engineering experience",
+    href: "#experience",
+  },
+];
